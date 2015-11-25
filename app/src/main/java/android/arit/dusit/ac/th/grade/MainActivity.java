@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
                   textView.setText(mySum +"ได้เกรด C");
               }else if(mySum<=50){
                   textView.setText(mySum + "ได้เกรด F");
+              }else if(mySum<=0){
+                  textView.setText(mySum + "ใส่ไม่ถูกต้อง");
               }
 
             }
